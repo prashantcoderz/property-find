@@ -1,0 +1,78 @@
+.main-section {
+  width: 100%;
+  height: 615px;
+  background: linear-gradient(
+    to bottom,
+    #d6e7f3 0%,   /* top light blue */
+    #e8f2f7 40%,  /* middle lighter */
+    #edf5f9 100%  /* bottom very light */
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 90px;
+  box-sizing: border-box;
+}
+
+
+/* LEFT AREA */
+.main-left {
+  max-width: 500px;
+}
+
+.best-real-estate {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #e85c3a;
+  font-weight: bold;
+}
+
+.main-section h1 {
+  font-size: 60px;
+  font-weight: 800;
+  margin-top: 10px;
+  line-height: 1.1;
+}
+
+.main-desc {
+  margin-top: 18px;
+  line-height: 1.6;
+  font-size: 16px;
+  border-left: 3px solid #e85c3a;
+  padding-left: 15px;
+  color: #333;
+}
+
+.enquire-btn {
+  margin-top: 25px;
+  background: linear-gradient(135deg, #ff7a4d, #e85c3a); /* GRADIENT */
+  color: #fff;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.35s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.enquire-btn:hover {
+  background: linear-gradient(135deg, #ff9168, #ff5f36); /* BRIGHTER GRADIENT */
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+
+/* RIGHT IMAGE */
+.main-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-right .main-img {
+  width: 600px; /* Bigger image */
+  height: auto;
+}

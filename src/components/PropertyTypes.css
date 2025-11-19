@@ -1,0 +1,49 @@
+.types-wrapper {
+  width: 100%;
+  padding: 60px 100px;
+  background: #f8f9fb;
+}
+
+.types-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.types-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.type-card {
+  background: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.type-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.type-icon {
+  font-size: 40px;
+  color: #e85c3a;
+  margin-bottom: 15px;
+}
+
+.type-card h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.type-card p {
+  font-size: 14px;
+  color: #555;
+}

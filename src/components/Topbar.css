@@ -1,0 +1,66 @@
+/* FULL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* TOPBAR REAL FULL WIDTH */
+.topbar {
+   width: 100%;
+  background: #0B2C3C; /* Blue topbar color */
+  color: #fff;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  align-items: center;
+
+}
+
+/* LEFT + RIGHT */
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* INLINE ITEMS */
+.left span,
+.right span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ⬇️ LEFT ICONS ORANGE (email, phone, location) */
+.left  svg {
+  color: #E85C3A !important;
+}
+
+/* ⬇️ RIGHT SOCIAL ICONS WHITE */
+.social svg {
+  color: #E85C3A !important;
+}
+
+/* All icons size */
+.topbar svg {
+  font-size: 16px;
+}
+
+/* BUTTON */
+button {
+  background: #e85c3a;
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}

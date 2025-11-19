@@ -1,0 +1,90 @@
+/* NAVBAR MAIN CONTAINER */
+.navbar {
+  width: 100%;
+  background: #ffffff;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  
+}
+
+/* LEFT, CENTER, RIGHT = 3 equal columns */
+.nav-left,
+.nav-menu,
+.nav-right {
+  flex: 1;
+}
+
+/* LEFT SECTION (logo + text) */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-logo {
+  width: 55px;
+}
+
+.nav-text h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #222;
+}
+
+.nav-text span {
+  font-size: 15px;
+  color: #242020;
+}
+
+/* CENTER MENU */
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-menu a:hover {
+  color: #e85c3a;
+}
+
+/* RIGHT SEARCH SIDE */
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* SEARCH BOX (underline + shadow + orange icon) */
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 14px 6px;
+  background: #fff;
+  
+  border-bottom: 2px solid #ccc;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.20);
+}
+
+/* ORANGE SEARCH ICON */
+.search-icon {
+  font-size: 18px;
+  color: #e85c3a !important;
+}
+
+/* SEARCH INPUT */
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background: transparent;
+}
